@@ -17,18 +17,22 @@ body {
     0%,100%{
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar1.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     25%{
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar3.png);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     50%{
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar4.png);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     75%{
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar1.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
