@@ -125,9 +125,13 @@ var baseLayers = [
 
 
 var overLayers = [
+    // {
+	// 	name: "Peta Wilayah Administrasi",
+	// 	layer: new L.GeoJSON.AJAX(["shp_administrasi.geojson"],{onEachFeature:popUp,style:myStyle ,pointToLayer: featureToMarker}).addTo(map)
+	// },
     {
 		name: "Peta Wilayah Administrasi",
-		layer: new L.GeoJSON.AJAX(["shp_administrasi.geojson"],{onEachFeature:popUp,style:myStyle ,pointToLayer: featureToMarker}).addTo(map)
+		layer: new L.GeoJSON.AJAX(["shp_admin.geojson"],{onEachFeature:popUp,style:myStyle ,pointToLayer: featureToMarker}).addTo(map)
 	},
 	{
 		name: "Irigasi",
